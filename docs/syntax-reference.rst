@@ -368,6 +368,7 @@ and `ROWKEY`.
 Example:
 
 .. code:: sql
+
     SELECT * FROM pageviews
       WHERE ROWTIME >= 1510923225000
         AND ROWTIME <= 1510923228000;
@@ -376,6 +377,7 @@ Example:
 run this configuration before running the query:
 
 .. code:: sql
+
     SET 'auto.offset.reset' = 'earliest';
 
 The WINDOW clause lets you control how to *group input records that have

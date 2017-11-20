@@ -39,4 +39,3 @@ Use cases
    ksql-clickstream-demo/index
    examples
    faq
-   contributing
